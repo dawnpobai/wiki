@@ -1,13 +1,18 @@
 package com.dawn.wiki.controller;
 
-import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 // 用来返回字符串 而@Controller用来返回页面 @ResponseBody用来返回字符串或JSON对象
 @RestController
 public class TestController {
     // http://127.0.0.1:8080/hello
+
+    // 自定义配置项 优先读配置文件，没有就用默认值
+    @Value("${test.hello:Test}")
+    private String testHello;
 
     /**
      * http请求方式：GET, POST, PUT, DELETE
@@ -27,7 +32,7 @@ public class TestController {
     // 注解的括号内为接口的请求地址
     @GetMapping ("/hello")
     public String hello() {
-        return "Hello World!";
+        return "Hello World!" + testHello;
     }
 
     @PostMapping("/hello/post")
