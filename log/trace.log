@@ -107,3 +107,55 @@
 2022-03-24 15:54:55.127 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-03-24 15:54:55.128 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2022-03-24 15:54:55.129 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-03-24 16:02:32.186 INFO  com.dawn.wiki.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on LAPTOP-OAE5FSJP with PID 2972 (D:\IdeaProjects\wiki\target\classes started by 12614 in D:\IdeaProjects\wiki)
+2022-03-24 16:02:32.188 INFO  com.dawn.wiki.config.WikiApplication              :640  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-03-24 16:02:32.576 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-24 16:02:32.581 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-24 16:02:32.581 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-24 16:02:32.581 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 16:02:32.620 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-24 16:02:32.620 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 409 ms
+2022-03-24 16:02:32.758 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-24 16:02:32.766 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-24 16:02:32.771 INFO  com.dawn.wiki.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 0.808 seconds (JVM running for 1.277)
+2022-03-24 16:02:32.772 INFO  com.dawn.wiki.config.WikiApplication              :22   [32m                  [0;39m 启动成功！！！
+2022-03-24 16:02:32.773 INFO  com.dawn.wiki.config.WikiApplication              :23   [32m                  [0;39m 地址：	http://127.0.0.1:8081
+2022-03-24 16:04:58.646 INFO  com.dawn.wiki.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on LAPTOP-OAE5FSJP with PID 2568 (D:\IdeaProjects\wiki\target\classes started by 12614 in D:\IdeaProjects\wiki)
+2022-03-24 16:04:58.648 INFO  com.dawn.wiki.config.WikiApplication              :640  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-03-24 16:04:59.047 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-24 16:04:59.053 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-24 16:04:59.053 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-24 16:04:59.054 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 16:04:59.088 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-24 16:04:59.088 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 419 ms
+2022-03-24 16:04:59.225 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-24 16:04:59.234 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-24 16:04:59.239 INFO  com.dawn.wiki.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 0.851 seconds (JVM running for 1.325)
+2022-03-24 16:04:59.240 INFO  com.dawn.wiki.config.WikiApplication              :22   [32m                  [0;39m 启动成功！！！
+2022-03-24 16:04:59.241 INFO  com.dawn.wiki.config.WikiApplication              :23   [32m                  [0;39m 地址：	http://127.0.0.1:8081
+2022-03-24 16:05:13.591 INFO  com.dawn.wiki.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on LAPTOP-OAE5FSJP with PID 12896 (D:\IdeaProjects\wiki\target\classes started by 12614 in D:\IdeaProjects\wiki)
+2022-03-24 16:05:13.593 INFO  com.dawn.wiki.config.WikiApplication              :640  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-03-24 16:05:13.998 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-03-24 16:05:14.002 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-24 16:05:14.002 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-24 16:05:14.002 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 16:05:14.039 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-24 16:05:14.040 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 425 ms
+2022-03-24 16:05:14.180 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-03-24 16:05:14.188 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-24 16:05:14.193 INFO  com.dawn.wiki.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 0.849 seconds (JVM running for 1.307)
+2022-03-24 16:05:14.194 INFO  com.dawn.wiki.config.WikiApplication              :22   [32m                  [0;39m 启动成功！！！
+2022-03-24 16:05:14.195 INFO  com.dawn.wiki.config.WikiApplication              :23   [32m                  [0;39m 地址：	http://127.0.0.1:null
+2022-03-24 16:06:52.110 INFO  com.dawn.wiki.config.WikiApplication              :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on LAPTOP-OAE5FSJP with PID 932 (D:\IdeaProjects\wiki\target\classes started by 12614 in D:\IdeaProjects\wiki)
+2022-03-24 16:06:52.112 INFO  com.dawn.wiki.config.WikiApplication              :640  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-03-24 16:06:52.504 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8082 (http)
+2022-03-24 16:06:52.508 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8082"]
+2022-03-24 16:06:52.508 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-24 16:06:52.508 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-24 16:06:52.542 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-24 16:06:52.543 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 410 ms
+2022-03-24 16:06:52.681 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8082"]
+2022-03-24 16:06:52.690 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8082 (http) with context path ''
+2022-03-24 16:06:52.695 INFO  com.dawn.wiki.config.WikiApplication              :61   [32m                  [0;39m Started WikiApplication in 0.825 seconds (JVM running for 1.298)
+2022-03-24 16:06:52.696 INFO  com.dawn.wiki.config.WikiApplication              :22   [32m                  [0;39m 启动成功！！！
+2022-03-24 16:06:52.696 INFO  com.dawn.wiki.config.WikiApplication              :23   [32m                  [0;39m 地址：	http://127.0.0.1:8082
